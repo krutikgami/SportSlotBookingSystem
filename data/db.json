@@ -1,0 +1,196 @@
+{
+  "venues": [
+    {
+      "id": 1,
+      "name": "Downtown Sports Center",
+      "sports": [
+        "Basketball",
+        "Volleyball",
+        "Badminton"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Riverside Tennis Club",
+      "sports": [
+        "Tennis"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Central Football Field",
+      "sports": [
+        "Football",
+        "Soccer"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Galaxy Fitness Arena",
+      "sports": [
+        "Basketball",
+        "Volleyball"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mountain View Court",
+      "sports": [
+        "Tennis",
+        "Badminton"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "id": 1,
+      "venueId": 1,
+      "date": "2025-05-23",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "isBooked": true
+    },
+    {
+      "id": 2,
+      "venueId": 1,
+      "date": "2025-05-23",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "isBooked": true
+    },
+    {
+      "id": 3,
+      "venueId": 1,
+      "date": "2025-01-15",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "isBooked": true
+    },
+    {
+      "id": 4,
+      "venueId": 1,
+      "date": "2025-01-15",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "isBooked": false
+    },
+    {
+      "id": 5,
+      "venueId": 1,
+      "date": "2025-01-15",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "isBooked": false
+    },
+    {
+      "id": 6,
+      "venueId": 1,
+      "date": "2025-01-16",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "isBooked": false
+    },
+    {
+      "id": 7,
+      "venueId": 1,
+      "date": "2025-01-16",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "isBooked": false
+    },
+    {
+      "id": 8,
+      "venueId": 1,
+      "date": "2025-01-16",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "isBooked": false
+    },
+    {
+      "id": 9,
+      "venueId": 2,
+      "date": "2025-01-15",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "isBooked": false
+    },
+    {
+      "id": 10,
+      "venueId": 2,
+      "date": "2025-01-15",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "isBooked": true
+    },
+    {
+      "id": 11,
+      "venueId": 2,
+      "date": "2025-01-15",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "isBooked": false
+    },
+    {
+      "id": 12,
+      "venueId": 2,
+      "date": "2025-01-15",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "isBooked": false
+    },
+    {
+      "id": 13,
+      "venueId": 3,
+      "date": "2025-01-15",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "isBooked": false
+    },
+    {
+      "id": 14,
+      "venueId": 3,
+      "date": "2025-01-15",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "isBooked": false
+    },
+    {
+      "id": 15,
+      "venueId": 3,
+      "date": "2025-01-15",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "isBooked": true
+    }
+  ],
+  "bookings": [
+    {
+      "venueId": 1,
+      "slotId": 2,
+      "date": "2025-05-23",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "registerEmail": "gamikrutik1234@gmail.com",
+      "userName": "xyz",
+      "userEmail": "abxc@gmail.com",
+      "userPhone": "+91 88493 63962",
+      "sport": "Badminton",
+      "bookedAt": "2025-05-23T07:45:13.745Z",
+      "id": 2
+    },
+    {
+      "venueId": 1,
+      "slotId": 1,
+      "date": "2025-05-23",
+      "startTime": "08:00",
+      "endTime": "09:00",
+      "registerEmail": "gamikrutik1234@gmail.com",
+      "userName": "krutik gami",
+      "userEmail": "gamikrutik1234@gmail.com",
+      "userPhone": "+91 88493 63962",
+      "sport": "Badminton",
+      "bookedAt": "2025-05-23T08:05:47.592Z",
+      "id": 3
+    }
+  ]
+}
