@@ -18,7 +18,9 @@ export function MyBooking() {
     <div className="time-slots-container container">
         {slots.length === 0 ? (
              <div className="no-slots-message">
-                No time slots available for the selected date and venue.
+                <h2>No Bookings Found</h2>
+                <p>You have not booked any time slots yet.</p>
+                <p>Please check back later or make a new booking.</p>
              </div>
         ) : (
     <div className="time-slots-grid">
